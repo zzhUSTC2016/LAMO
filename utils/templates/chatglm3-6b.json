@@ -1,0 +1,6 @@
+{
+    "description": "Template used for medalpaca-13b.",
+    "prompt_history": "You are taking a medical exam right now. \nYou will be given a patient's clinical condition with a candidate drug delimited by triple quotes, \nyour task is to judge whether the candidate drug is effective and safe for the patient. \nNote: Answer with <Yes.> or <No.> and do not explain.\n###Previous Hospitalization: '''\n{history}\n'''\n###Current Clinical Condition: '''\n{input}\n'''\n###Answer:\n",
+    "prompt_no_history": "You are taking a medical exam right now. \nYou will be given a patient's clinical condition with a candidate drug delimited by triple quotes, \nyour task is to judge whether the candidate drug is effective and safe for the patient. \nNote: Answer with <Yes.> or <No.> and do not explain.\n###Current Clinical Condition: '''\n{input}\n'''\n###Answer:\n",
+    "response_split": "###Answer:"    
+}

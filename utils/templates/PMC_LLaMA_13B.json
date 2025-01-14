@@ -1,0 +1,6 @@
+{
+    "description": "Template used for PMC_LLaMA_13B",
+    "prompt_history": "You are taking a medical exam right now. \nYou will be given a patient's clinical condition with a candidate drug, \nYou need to determine whether the drug is appropriate, appropriate, and necessary for the patient. \nOnly necessary, safe, and appropriate drugs should answer <Yes.>. \nAnswer with <Yes.> or <No.> and do not provide any other words, do not explain anything.\n###Previous Hospitalization: '''\n{history}'''\n###Current Clinical Condition:'''\n{input}\n'''\n###Answer:\n",
+    "prompt_no_history": "You are taking a medical exam right now. \nYou will be given a patient's clinical condition with a candidate drug, \nYou need to determine whether the drug is appropriate, appropriate, and necessary for the patient. \nOnly necessary, safe, and appropriate drugs should answer <Yes.>. \nAnswer with <Yes.> or <No.> and do not provide any other words, do not explain anything.\n###Current Clinical Condition:'''\n{input}\n'''\n###Answer:\n",
+    "response_split": "###Answer:"    
+}

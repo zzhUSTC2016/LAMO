@@ -1,0 +1,7 @@
+{
+    "description": "Template used for Qwen-14B-Chat.",
+    "prompt_history": "You are taking a medical exam right now. You will be given a patient's clinical condition with a candidate drug, your task is to judge whether the candidate drug is effective and safe for the patient. Answer with <Yes.> or <No.> and do not provide any other words. Do not repeat the question in your answer. ###Previous Hospitalization: '''\n{history}\n'''\n###Current Clinical Condition: '''\n{input}\n'''\n###Answer:\n",
+    "prompt_no_history": "You are taking a medical exam right now. You will be given a patient's clinical condition with a candidate drug, your task is to judge whether the candidate drug is effective and safe for the patient. Answer with <Yes.> or <No.> and do not provide any other words. Do not repeat the question in your answer. ###Current Clinical Condition: '''\n{input}\n'''\n###Answer:\n",
+    "response_split": "###Answer:"    
+}
+

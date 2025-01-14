@@ -1,0 +1,6 @@
+{
+    "description": "Template used for gpt-4-0613.",
+    "prompt_history": "You are taking a medical exam right now. \nYou will be given a patient's clinical condition with a candidate drug, your task is to judge whether the candidate drug is effective and safe for the patient. \nAnswer with <Yes.> or <No.> and do not provide any other words. \nDo not repeat the question in your answer. \n###Previous Hospitalization: \n'''\n{history}\n'''\n###Current Clinical Condition: \n'''\n{input}\n'''\n###Answer:\n",
+    "prompt_no_history": "You are taking a medical exam right now. \nYou will be given a patient's clinical condition with a candidate drug, your task is to judge whether the candidate drug is effective and safe for the patient. \nAnswer with <Yes.> or <No.> and do not provide any other words. \nDo not repeat the question in your answer. \n###Current Clinical Condition: '''\n{input}\n'''\n###Answer:\n",
+    "response_split": "###Answer:"    
+}

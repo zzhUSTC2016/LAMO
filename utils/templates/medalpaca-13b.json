@@ -1,0 +1,6 @@
+{
+    "description": "Template used for medalpaca-13b.",
+    "prompt_history": "You will be given a patient's clinical condition with a candidate drug, your task is to judge whether the candidate drug is effective and safe for the patient. \nDo not repeat the question in your answer. \n###Previous Hospitalization: \n{history}\n###Current Clinical Condition:\n{input}\n###Choose the appropriate option from the following two options:\n<Yes.> or <No.>\n###Answer:",
+    "prompt_no_history": "You will be given a patient's clinical condition with a candidate drug, your task is to judge whether the candidate drug is effective and safe for the patient. \nDo not repeat the question in your answer. \n###Current Clinical Condition: \n{input}\n###Choose the appropriate option from the following two options:\n<Yes.> or <No.>\n###Answer:",
+    "response_split": "###Answer:"    
+}

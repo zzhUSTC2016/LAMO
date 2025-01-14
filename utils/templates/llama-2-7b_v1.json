@@ -1,0 +1,5 @@
+{
+    "description": "Template used for llama-2-7b.",
+    "prompt_no_history": "You are taking a medical exam right now.\n You will be given a patient's clinical condition with a candidate drug delimited by triple quotes, your task is to judge whether the candidate drug is effective and safe for the patient.\n Note: Answer with <Yes.> or <No.> and do not explain. '''\n{input}\n'''\nAnswer:\n",
+    "response_split": "Answer:"    
+}
